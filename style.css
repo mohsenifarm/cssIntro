@@ -1,0 +1,15 @@
+h2 {
+    /* hex color  */
+    color: #80bfff;
+    /* rgb color  */
+    background-color: rgb(159, 205 , 209);
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
+
+p {
+    color: olive;
+}

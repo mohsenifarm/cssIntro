@@ -1,0 +1,27 @@
+/* universal selector 
+* {
+    color: red;
+} */
+/* elemnt selector
+h1 {
+    color: black;
+} */
+/* combine selector
+h1, h2 {
+    color: pink;
+} */
+body {
+    background-color: #f1faee;
+}
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+h1, h2 {
+    color: #1d3557;
+}
+/* id selector */
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
