@@ -21,7 +21,81 @@ h1, h2 {
     color: #1d3557;
 }
 /* id selector */
+/* id should be unique but class can be contain a bunch of elemnts */
 #signup {
     background-color: #1d3557;
     color: #f1faee;
 }
+span {
+    color: #457b9d;
+}
+/* class selector */
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 20px;
+}
+/* descendant selector */
+/* for example .post a mean all a nested inside .post  */
+.post a {
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: 700;
+}
+footer a {
+    color: #e63946;
+}
+/* adjacent selector */
+/* h1+p means p that comes after h1 at same level  */
+/* input + button {
+    background-color: pink;
+} */
+h2 + button {
+    font-size: 20px;
+}
+/* direct child 
+for example div > li means only li's that are direct children od div */
+/* for this example i realize that a is a direct child of footer  */
+footer > a {
+    color: #1d3557;
+}
+/* attribute selector */
+/* select an element with the type of whatever */
+/* for example all inputs with the type of text or radio buttons */
+input[type="password"] {
+    background-color: greenyellow;
+}
+/* pseudo classes = keyword added to a selecor that specifies a apecial state of the selected elements */
+/* :active
+:checked
+:first
+;:first-child
+:hover
+:not()
+:nth-child()
+:nth-of-type() */
+
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+.post a:hover {
+    text-decoration: overline;
+}
+
+/* pseudo elemsts: keyword added to a selector that lets you stayle a particular part of selected elements  */
+/* ::after
+::before
+::first-letter
+::first-line
+::selection */
+h2::first-letter {
+    font-size: 20px;
+    color: green;
+}
+/* ::selection mean when you mark the text  */
+.selection::selection {
+    background-color: red;
+}
+/* if i write ::selection it works for all contetnt entire page  */
