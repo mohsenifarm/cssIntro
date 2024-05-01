@@ -1,0 +1,17 @@
+section {
+    background-color: #ffc8dd;
+    width: 800px;
+    height: 800px;
+}
+div {
+    background-color: #bde0fe;
+    width: 50%;
+    height: 50%;
+}
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+/* em means *(times) parennts font size*/
+/* rem mean root html font size * to what we define  */
