@@ -1,5 +1,11 @@
 /* transition : property name | duration | timing function | delay   */
 
+/* ------ 
+transform allows us to do alot
+rotate
+skew 
+scale */
+
 .circle{
     width: 300px;
     height: 300px;
