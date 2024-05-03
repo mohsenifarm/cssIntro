@@ -1,0 +1,38 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #3d405d;
+    border: 2px solid black;
+    display: inline-block;
+}
+#middle {
+    background-color: #81b29a;
+} 
+#static #middle {
+    position: static;
+    top: 100px;
+}
+#relative #middle {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+/* absolute */
+/* i put realative position to section because of 
+absolue position af div #middle */
+/* ------  */
+/* [refrence to MDN for position it's really important] */
+#absolute {
+    position: relative;
+}
+#absolute #middle {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+/* #fixed {
+    position: relative;
+} */
+#fixed #middle {
+    position: fixed;
+}
